@@ -1,5 +1,6 @@
-# Configuration
-```npm install```
+# Installation and Configuration
+* ```git clone https://github.com/lkgit1/learnly.git```
+* ```npm install```
 
 ## Testing
 Install Postman: https://www.postman.com/downloads/
