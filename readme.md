@@ -20,11 +20,13 @@ localhost:9000/api/v1/
 Endpoint: localhost:9000/api/v1/medical_histories [POST]
 
 Sample payload:
+```json
 {
     "patient": "Benedict John",
     "action": "Placed on 5 days admission to treat malaria",
     "date": "2024-12-19 12:00"
 }
+```
 
 ![Click on "Body" tab and select "raw" to input JSON data](https://github.com/user-attachments/assets/44440c17-382e-4e5b-9464-b29bf91e54ff)
 
