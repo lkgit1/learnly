@@ -26,7 +26,11 @@ Sample payload:
     "date": "2024-12-19 12:00"
 }
 
+![Click on "Body" tab and select "raw" to input JSON data](https://github.com/user-attachments/assets/44440c17-382e-4e5b-9464-b29bf91e54ff)
+
+
 Sample response:
+```json
 {
     "status": 200,
     "message": "ok",
@@ -41,14 +45,18 @@ Sample response:
         }
     ]
 }
+```
 
 Find history by patient name: localhost:9000/api/v1/medical_histories [GET]:
 Sample payload:
+```json
 {
     "patient": "Benedict John"
 }
+```
 
 Sample response:
+```json
 {
     "status": 200,
     "message": "ok",
@@ -61,23 +69,28 @@ Sample response:
         "__v": 0
     }
 }
+```
 
 Same setup applies for other endpoints
 
 # Other endpoints
-/api/v1/consultations [GET, POST, PATCH, DELETE]
-/api/v1/tests [GET, POST, PATCH, DELETE]
+* ```/api/v1/consultations [GET, POST, PATCH, DELETE]```
+* ```/api/v1/tests [GET, POST, PATCH, DELETE]```
 
 # Chatbot (stub)
 Endpoint: localhost:9000/api/v1/custom/chatbot [POST]
 
 Sample payload:
+```json
 {
     "message": "hello"
 }
+```
 
 Sample response:
+```json
 {
     "status": 200,
     "message": "Hi, how may I help you today?"
 }
+```
