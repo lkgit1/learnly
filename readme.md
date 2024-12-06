@@ -9,7 +9,8 @@ Install Postman: https://www.postman.com/downloads/
 * Copy the ```token``` from the response data.
 
 Under the ```Headers``` tab, add a new key called ```Authorization``` and the value should be the token you just copied. 
-![Postman config example](<https://ibb.co/2sYj1Dp>)
+![Postman config example](https://github.com/user-attachments/assets/77bb96b5-2cb6-4375-8d5e-abf23aacdbb2)
+
 
 # API URL
 localhost:9000/api/v1/
